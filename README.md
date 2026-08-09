@@ -4,13 +4,13 @@ Active Directory infrastructure rebuild for a fictional company called “Norths
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-[Provide 3 to 5 sentences describing what was broken at Northstar Medical Group. Mention the MSP mismanagement, lack of structure, manual processes, and HIPAA risks that existed before your project.]
+At NMG users were provisioned manually with no designation system. No OU structure was established, and group memberships were inconsistently assigned across users. These issues create a HIPAA compliance exposure for a 200+ employee healthcare organization.
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
+Built the NMG.com domain on Windows Server and designed a department-based OU structure containing four business units. Implemented Role-Based Access Control using security groups linked to each department. Equipped 15 users with standardized designation systems and attribute consistency. Corrected OU and Security Group placement incident for a user.
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+http://link.placeholder.com
 
 ## Tools Used
 * Windows Server
@@ -29,5 +29,5 @@ Active Directory infrastructure rebuild for a fictional company called “Norths
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* Designed department-based OU structure (Finance, HR, IT, Operations)
+* Diagnosed and resolved a multi-cause access issue (wrong OU + missing group membership)
