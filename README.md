@@ -10,7 +10,7 @@ At NMG users were provisioned manually with no designation system. No OU structu
 Built the NMG.com domain on Windows Server and designed a department-based OU structure containing four business units. Implemented Role-Based Access Control using security groups linked to each department. Equipped 15 users with standardized designation systems and attribute consistency. Corrected OU and Security Group placement incident for a user.
 
 ## Video Walkthrough
-http://link.placeholder.com
+https://www.loom.com/share/6044f9089d9243f087b19bf71d16c83a
 
 ## Tools Used
 * Windows Server
